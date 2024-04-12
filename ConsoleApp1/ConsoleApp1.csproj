@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>ConsoleApp1.Q5GretestThreeNumByTernary</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="LabSession\Asg1-10April\" />
+  </ItemGroup>
+
+</Project>
