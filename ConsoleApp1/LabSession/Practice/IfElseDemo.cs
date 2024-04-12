@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp1.LabSession.Practice
 {
     internal class IfElseDemo
     {

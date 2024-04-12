@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Q6DisplayNum
+    internal class Q2DisplayNum
     {
 
         static void Main(string[] args)

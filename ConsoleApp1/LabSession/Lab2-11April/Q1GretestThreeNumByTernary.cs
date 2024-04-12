@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Q5GretestThreeNum
+    internal class Q1GretestThreeNumByTernary
     {
         static void Main(string[] args)
         {
@@ -19,19 +19,16 @@ namespace ConsoleApp1
             Console.WriteLine("Enter Num3");
             int num3 = Convert.ToInt32(Console.ReadLine());
 
+            int greatestByAnd = (num1 > num2) && (num1 > num3) ? num1 : (num2 > num3) ? num2 : num3;
 
-            if ((num1 > num2) && (num1 > num3))
-            {
-                Console.WriteLine($"{num1} is greatest");
-            }
-            else if (num2 > num3)
-            {
-                Console.WriteLine($"{num2} is greatest");
-            }
-            else
-            {
-                Console.WriteLine($"{num3} is greatest");
-            }
+            Console.WriteLine($"{greatestByAnd} is greatest");
+            
+
+
+            int greatest = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
+
+            Console.WriteLine($"{greatest} is greatest");
         }
+    }
     }
 }

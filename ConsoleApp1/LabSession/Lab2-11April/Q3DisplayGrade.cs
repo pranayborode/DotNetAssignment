@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Q7DisplayGrade
+    internal class Q3DisplayGrade
     {
         static void Main(string[] args)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Q8NegPosZero
+    internal class Q4NegPosZero
     {
         static void Main(string[] args)
         {

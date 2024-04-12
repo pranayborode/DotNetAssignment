@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class AreaOfTriangle
+    internal class Q3AreaOfTriangle
     {
         static void Main(string[] args)
         {
