@@ -8,4 +8,8 @@
     <StartupObject>ConsoleApp1.Q5GretestThreeNumByTernary</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="TheorySession\" />
+  </ItemGroup>
+
 </Project>
