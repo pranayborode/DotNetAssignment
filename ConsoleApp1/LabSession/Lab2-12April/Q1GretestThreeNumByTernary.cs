@@ -19,9 +19,9 @@ namespace ConsoleApp1
             Console.WriteLine("Enter Num3");
             int num3 = Convert.ToInt32(Console.ReadLine());
 
-            int greatestByAnd = (num1 > num2) && (num1 > num3) ? num1 : (num2 > num3) ? num2 : num3;
+           // int greatestByAnd = (num1 > num2) && (num1 > num3) ? num1 : (num2 > num3) ? num2 : num3;
 
-            Console.WriteLine($"{greatestByAnd} is greatest");
+           // Console.WriteLine($"{greatestByAnd} is greatest");
             
 
 
@@ -30,5 +30,5 @@ namespace ConsoleApp1
             Console.WriteLine($"{greatest} is greatest");
         }
     }
-    }
+    
 }
