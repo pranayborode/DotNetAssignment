@@ -9,12 +9,12 @@ namespace ConsoleApp1.TheorySession
     internal class Employee
     {
         //declare the data members
-        private int empid;
-        private string empname;
-        private double bs, hra, pf, gross;
+        protected int empid;
+        protected string empname;
+        protected double bs, hra, pf, gross;
 
         //working with methods
-        public void Assign()
+        public Employee()
         {
             empid = 1;
             empname = "Pranay";
@@ -25,7 +25,7 @@ namespace ConsoleApp1.TheorySession
         }
 
         //method which accept the values from parameters
-        public void Accept(int id, string name, double b, double h, double p)
+        public Employee(int id, string name, double b, double h, double p)
         {
             empid = id;
             empname = name;
@@ -34,14 +34,14 @@ namespace ConsoleApp1.TheorySession
             pf = p;
         }
 
-        public void CalculateSalary()
+        public virtual void CalculateSalary()
         {
             gross = (bs + hra) - pf;
         }
 
-        public string display()
+        public virtual string display()
         {
-            return $"empId = {empid}, empName = {empname}, GrossSalary = {gross}";
+            return $"Employee : empId = {empid}, empName = {empname}, GrossSalary = {gross}";
         }
     }
 }

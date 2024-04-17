@@ -9,5 +9,9 @@ namespace ConsoleApp1.Assignments._1_Loop
     //12.	s=1!+2!+3!.........+n! find s
     internal class Q12FactorialNumber
     {
+
+
+            
+
     }
 }

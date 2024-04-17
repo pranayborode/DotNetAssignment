@@ -1,6 +1,10 @@
 ﻿
 using ConsoleApp1;
-using ConsoleApp1.TheorySession;
+using ConsoleApp1.TheorySession.Interface;
+using ConsoleApp1.TheorySession.PartialClass;
+using ConsoleApp1.TheorySession.PartialMethods;
+using System.Runtime.Intrinsics.X86;
+using System.Transactions;
 
 // See https://aka.ms/new-console-template for more information
 /*Console.WriteLine("Hello, World!");
@@ -61,8 +65,24 @@ Console.WriteLine(emp2.display());
 
 */
 
+/*Employee emp1 = new Employee(1,"Pranay",2000, 1000, 250);
+emp1.CalculateSalary();
+Console.WriteLine(emp1.display());
 
-Student std1 = new Student();
+
+//object of child class
+Manager m1 = new Manager(2, "Rahul", 3000, 2000, 500, 1000);
+m1.CalculateSalary();
+Console.WriteLine(m1.display());
+
+
+//create reference of base class, but object of child class
+Employee e1 = new Manager(3, "Ganesh",4000, 2000, 500, 1000);
+m1.CalculateSalary();
+Console.WriteLine(e1.display());*/
+
+
+/*Student std1 = new Student();
 
 Student std2 = new Student("Rahul");
 
@@ -72,7 +92,7 @@ Console.WriteLine(std1.Display());
 Console.WriteLine(std2.Display());
 Console.WriteLine(std3.Display());
 
-Console.WriteLine($"Total Count {Student.GetCount()}");
+Console.WriteLine($"Total Count {Student.GetCount()}");*/
 
 /*Date d1 = new Date();
 
@@ -105,3 +125,44 @@ Console.WriteLine($"{b1.Id}, {b1.Name}, {b1.Price}");
 Book b2 = new Book { Id=102, Name="72 Mail Ek Pravas", Price =1200.00 };
 
 Console.WriteLine($"{b2.Id}, {b2.Name}, {b2.Price}");*/
+
+
+/*Circle c1 = new Circle(6);
+c1.CalculateArea();
+
+Console.WriteLine(c1.Print());
+
+Rectangle r1 = new Rectangle(8, 4);
+r1.CalculateArea();
+Console.WriteLine(r1.Print());*/
+
+
+// Interface ******************************
+
+/*Job j1 = new Job();
+Console.WriteLine("Job: Tax Amount - "+j1.PayTax());
+
+Business b1 = new Business();
+Console.WriteLine("Business: Tax Amount - "+b1.PayTax());*/
+
+
+/*ICustomer c1 = new Trasaction();
+Console.WriteLine(c1.print());
+
+IOrder o1 = new Trasaction();
+Console.WriteLine(o1.print());*/
+
+//Partial Class in C# ***********************************
+
+/*Calc c1 = new Calc();
+Console.WriteLine(c1.Add(10,33));
+Console.WriteLine(c1.Sub(33, 10));*/
+
+
+//Partial Methods in C# ***********************************
+
+/*Calc2 c1 = new Calc2();
+Console.WriteLine(c1.Add(10,33));
+c1.Sub(10, 5);
+c1.Mul(10, 5);  
+c1.Div(10, 5);*/
