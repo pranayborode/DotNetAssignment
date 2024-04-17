@@ -166,3 +166,85 @@ Console.WriteLine(c1.Add(10,33));
 c1.Sub(10, 5);
 c1.Mul(10, 5);  
 c1.Div(10, 5);*/
+
+
+// Array ********************************************
+/*
+int[] arr1 = new int[] { 80, 45, 12, 78, 1 };
+int[] arr2 = new int[3];
+
+foreach (int item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+Array.Sort(arr1);
+Console.WriteLine("---After sort-----");
+foreach (int item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+Array.Reverse(arr1);
+Console.WriteLine("---After Reverse-----");
+foreach (int item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+//copy the 3 elements  45, 12, 1 in the new array
+
+Array.Copy(arr1,2,arr2,0,3);
+Console.WriteLine("---After copy-----");
+foreach (int item in arr2)
+{
+    Console.WriteLine(item);
+}
+
+Array.Clear(arr1);
+Console.WriteLine("---After Clear-----");
+foreach (int item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+*/
+/*
+string[] arr1 = new string[] { "Pune", "Amravati", "Mumbai", "Hydrabad", "Delhi" };
+string[] arr2 = new string[3];
+
+foreach (string item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+Array.Sort(arr1);
+Console.WriteLine("---After sort-----");
+foreach (string item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+Array.Reverse(arr1);
+Console.WriteLine("---After Reverse-----");
+foreach (string item in arr1)
+{
+    Console.WriteLine(item);
+}
+
+Array.Copy(arr1, 2, arr2, 0, 3);
+Console.WriteLine("---After copy-----");
+foreach (string item in arr2)
+{
+    Console.WriteLine(item);
+}
+
+Array.Clear(arr1);
+Console.WriteLine("---After Clear-----");
+foreach (string item in arr1)
+{
+    Console.WriteLine(item);
+}*/
+
+// Addition of 3*3 matrix using 2D arrya
+
