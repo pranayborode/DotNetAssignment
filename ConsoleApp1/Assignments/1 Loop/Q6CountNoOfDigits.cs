@@ -12,7 +12,8 @@ namespace ConsoleApp1.Assignments._1_Loop
     {
         static void Main(string[] args)
         {
-                
+         
+            
         }
 
     }

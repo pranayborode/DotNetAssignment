@@ -1,11 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ConsoleApp1.Assignments._1_Loop.Q12SumOfFactorialNumber</StartupObject>
+    <StartupObject>ConsoleApp1.Assignments.Array.Q10MergeTwoArrays</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TheorySession\Collection\" />
+  </ItemGroup>
 
 </Project>

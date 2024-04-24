@@ -10,5 +10,6 @@ namespace ConsoleApp1.Assignments._1_Loop
     //8.	Write a program to find frequency of each digit in a given integer.
     internal class Q8FreqOfEachDigit
     {
+
     }
 }

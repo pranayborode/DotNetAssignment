@@ -1,10 +1,15 @@
 ﻿
 using ConsoleApp1;
+using ConsoleApp1.TheorySession;
+using ConsoleApp1.TheorySession.Collection;
+using ConsoleApp1.TheorySession.IEnumerator_Enumerator;
 using ConsoleApp1.TheorySession.Interface;
 using ConsoleApp1.TheorySession.PartialClass;
 using ConsoleApp1.TheorySession.PartialMethods;
+using System.Collections;
 using System.Runtime.Intrinsics.X86;
 using System.Transactions;
+using static ConsoleApp1.TheorySession.Collection.Player;
 
 // See https://aka.ms/new-console-template for more information
 /*Console.WriteLine("Hello, World!");
@@ -248,3 +253,117 @@ foreach (string item in arr1)
 
 // Addition of 3*3 matrix using 2D arrya
 
+// Collections ****************************
+
+/*int[] arr = new int[] { 7, 2, 6, 4, 4, 1 };
+
+ArrayList list = new ArrayList();
+
+list.Add(12);
+list.Add(23);
+list.Add(35);
+list.AddRange(arr);
+
+list.RemoveAt(4);
+list.Remove(12);
+list.RemoveRange(2, 3);
+
+foreach (var i in list)
+{
+    Console.WriteLine(i);
+}
+*/
+
+//Hashtable*********************
+/*
+Hashtable ht = new Hashtable();
+
+ht.Add(91, "IND");
+ht.Add(93, "AFG");
+ht.Add(20,"EGY");
+ht.Add(33, "FRA");
+ht.Add(299, "GRL");
+
+foreach (DictionaryEntry item in ht)
+{
+    Console.WriteLine($"{item.Key} -> {item.Value}");
+}
+
+SortedList sl = new SortedList();
+
+Console.WriteLine("Sorted List");
+
+sl.Add(91, "IND");
+sl.Add(93, "AFG");
+sl.Add(20, "EGY");
+sl.Add(33, "FRA");
+sl.Add(299, "GRL");
+
+foreach (DictionaryEntry item in sl)
+{
+    Console.WriteLine($"{item.Key} -> {item.Value}");
+}
+
+*/
+/*Team ind = new Team();
+
+foreach (Player p in ind)
+{
+    Console.WriteLine(p);
+}
+
+Player virat = new Player("Virat", 3300);
+Player rohit = new Player("Rohti", 2500);
+
+int result = virat.CompareTo(rohit);
+if (result == 1)
+{
+    Console.WriteLine("Virat has more runs than rohit");
+}
+else if (result == -1)
+{
+    Console.WriteLine("virat has less runs than rohit");
+}
+else
+{
+    Console.WriteLine("both have equal runs");
+}
+
+Console.WriteLine("****************************");
+
+PlayerCompare obj = new PlayerCompare();
+
+int r = obj.Compare(virat, rohit);
+
+if (r==1)
+{
+    Console.WriteLine("Virat has more runs than rohit");
+
+}
+else if (result == -1)
+{
+    Console.WriteLine("virat has less runs than rohit");
+}
+else
+{
+    Console.WriteLine("both have equal runs");
+
+}*/
+
+/*Employees rahul = new Employees(101,"Rahul", 33000);
+
+Employees ganesh = new Employees(102, "Ganesh", 43000);
+
+int res = rahul.CompareTo(ganesh);
+if (res == 1)
+{
+    Console.WriteLine("Rahul has more Salary than Ganesh");
+}
+else if (res == -1)
+{
+    Console.WriteLine("Rahul has less Salary than Ganesh");
+}
+else
+{
+    Console.WriteLine("both have equal Salary");
+}*/

@@ -9,5 +9,6 @@ namespace ConsoleApp1.Assignments._1_Loop
     //14.	Disarum no 135=1+3*3+5*5*5=135
     internal class Q14DisarumNum
     {
+
     }
 }
