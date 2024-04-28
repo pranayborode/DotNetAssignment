@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ConsoleApp1.Assignments.Classes_Object.Student</StartupObject>
+    <StartupObject>ConsoleApp1.TheorySession.Crud.EmployeeMain</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
